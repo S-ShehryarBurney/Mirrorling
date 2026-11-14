@@ -1,0 +1,33 @@
+# Secrets
+.env
+.env.*
+!.env.example
+
+# Python
+.venv/
+__pycache__/
+*.pyc
+
+# Node.js
+node_modules/
+dist/
+
+# Personal voice diagnostics
+backend/voice_diagnostics_latest.csv
+backend/voice_diagnostics_latest.json
+
+# Voice test recordings
+backend/voices/*.wav
+# Unused Piper test voices
+backend/voices/en_US-joe-medium.onnx
+backend/voices/en_US-joe-medium.onnx.json
+backend/voices/en_US-sam-medium.onnx
+backend/voices/en_US-sam-medium.onnx.json
+
+# Test recordings and diagnostics
+backend/voices/*.wav
+backend/voice_diagnostics_latest.csv
+backend/voice_diagnostics_latest.json
+
+# Piper voice model - kept locally, not redistributed in public repository
+backend/voices/en_US-kusal-medium.onnx
